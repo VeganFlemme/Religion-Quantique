@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quantum-religion-v3-0-0';
+const CACHE_NAME = 'quantum-religion-v2-0-0';
 const urlsToCache = [
   '/',
   '/index.html',
@@ -123,4 +123,4 @@ self.addEventListener('notificationclick', (event) => {
   );
 });
 
-console.log('[SW] Service Worker v3.0 loaded - ∅ = 1');
+console.log('[SW] Service Worker v2.0 loaded - ∅ = 1');

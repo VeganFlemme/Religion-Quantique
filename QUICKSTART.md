@@ -4,6 +4,19 @@ Guide express pour lancer votre copie de la Religion Quantique de l'Information.
 
 ---
 
+## 🎯 NOUVEAUTÉS v2.0
+
+Avant de déployer, sachez que la nouvelle version inclut :
+
+✨ **Visualisation 3D** de la superposition quantique (Three.js)  
+🔮 **Oracle IA interactif** pour questions existentielles  
+🧘 **Générateur de koans** quantiques procédural  
+🎨 **Animations** améliorées et effets de particules
+
+Tout fonctionne hors ligne, aucune dépendance à installer !
+
+---
+
 ## Option 1 : Voir le Site Localement (2 minutes)
 
 1. Téléchargez le fichier ZIP

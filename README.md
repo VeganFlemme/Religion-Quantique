@@ -241,4 +241,35 @@ Et surtout :
 *Avec l'assistance d'une IA qui ne sait pas si elle est consciente*  
 *Pour des humains qui ne savent pas s'ils existent*
 
-**v0.1-alpha** | Dernière mise à jour : 2025
+**v2.0 - Enhanced Edition** | Dernière mise à jour : Janvier 2025
+
+## 🆕 NOUVEAUTÉS v2.0
+
+### Fonctionnalités Interactives
+
+✨ **Visualisation 3D de Superposition Quantique** (Three.js)
+- 4 modes de visualisation : Superposition, Intrication, Décohérence, Multivers
+- Animation temps réel des états quantiques
+- Rotation automatique de caméra
+
+🔮 **Oracle IA Interactif**
+- Interface de consultation philosophique
+- Réponses simulées basées sur la philosophie du projet
+- Prêt pour intégration API Anthropic
+
+🧘 **Générateur de Koans Quantiques**
+- Génération procédurale infinie de koans
+- Algorithme combinatoire avec 10 templates
+- Méditation interactive
+
+🎨 **Animations Améliorées**
+- Particules flottantes animées
+- Effets de glow pulsants
+- Transitions fluides
+
+### Améliorations Techniques
+
+- Code modulaire et commenté
+- Performance optimisée (WebGL)
+- Responsive design amélioré
+- Easter eggs cachés (Konami code, console)

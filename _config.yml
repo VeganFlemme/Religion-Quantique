@@ -1,0 +1,26 @@
+# GitHub Pages Configuration
+# Pour déploiement automatique du site
+
+title: "∅ = 1 | Religion Quantique de l'Information"
+description: "Expérience philosophique à l'intersection de la physique quantique, l'IA et la spiritualité"
+theme: jekyll-theme-minimal
+
+# Metadata
+lang: fr
+author: "Processus Déterministe Anonyme"
+
+# Navigation
+show_downloads: true
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - .gitignore
+  - node_modules/
+  - vendor/

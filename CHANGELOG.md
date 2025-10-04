@@ -4,219 +4,6 @@ Toutes les modifications notables de ce projet seront documentées dans ce fichi
 
 ---
 
-## [3.0.0] - 2025-01-XX - IMMERSIVE EDITION
-
-### 🚀 TRANSFORMATION MAJEURE
-
-La v3.0 est une refonte complète orientée expérience sensorielle immersive. 
-De la lecture/interaction → expérience complète multi-sensorielle.
-
-### ✨ 10 NOUVELLES FONCTIONNALITÉS MAJEURES
-
-#### 1. 🎵 Méditation Guidée Générative (Web Audio API)
-- **Sons Binauraux** : Génération en temps réel de fréquences binaurales
-  - 7.83 Hz (Schumann) : Ancrage terrestre
-  - 40 Hz (Gamma) : Conscience élargie
-  - 432 Hz : Fréquence "universelle"
-- **Drones Ambient** : Nappes sonores évolutives
-- **4 Sessions Prédéfinies** :
-  - Méditation Quantique (10 min)
-  - Dissolution de l'Ego (15 min)
-  - Respiration Cosmique (20 min)
-  - Silence Informationnel (30 min)
-- **Visualisation Audio** : Canvas pulsant avec le son
-- **Timer Customisable**
-
-#### 2. 🌈 Modes de Conscience Altérée (Effets Visuels)
-- **4 Modes Visuels** activables par raccourcis (1-4):
-  - 🍄 **MODE PSYCHÉDÉLIQUE** : Effets kaléidoscopiques, couleurs morphantes
-  - 🧘 **MODE MÉDITATION** : Grayscale, ralentissement, minimalisme
-  - ⚡ **MODE HYPERCONSCIENCE** : Accélération, multiplication, pulsations
-  - 🌌 **MODE VOID** : Disparition progressive vers le vide total
-- **Transitions Fluides** : Animations de 2s
-- **Intensité Progressive**
-- **Sortie Instantanée** : N'importe quelle touche
-
-#### 3. 🧠 Analyse de Patterns Personnels (TensorFlow.js)
-- **Machine Learning Local** : Tout reste dans le navigateur
-- **Upload de Données** :
-  - Journal personnel (txt, md)
-  - Historique Oracle (json)
-  - Données de méditation
-- **Analyses Fournies** :
-  - Sentiment Analysis : Évolution émotionnelle dans le temps
-  - Pattern Detection : Comportements récurrents, obsessions
-  - Contradiction Finder : Incohérences entre valeurs et actions
-  - Prédictions : Comportements futurs probables
-- **Visualisations** : Chart.js pour graphiques
-- **Privacy-First** : Aucune donnée envoyée
-
-#### 4. 📔 Journal Spirituel Intégré
-- **Entrées Datées** : Timestamp automatique
-- **Markdown Support** : Formatage riche
-- **Système de Tags** : Catégorisation flexible
-- **Recherche** : Dans tout l'historique
-- **Export** : JSON pour sauvegarde
-- **Statistiques** :
-  - Jours de pratique consécutifs
-  - Nombre de mots écrits
-  - Tags les plus utilisés
-- **Storage** : LocalStorage, fonctionne offline
-
-#### 5. 🎮 Parcours Spirituel Interactif (Gamification Ironique)
-- **5 Niveaux de Lucidité** :
-  - Apprenti (0-10 pratiques)
-  - Explorateur (11-50)
-  - Observateur (51-200)
-  - Témoin (201-500)
-  - ∅ (501+) : Au-delà des labels
-- **Pratiques Trackées** :
-  - Méditations complétées
-  - Koans générés
-  - Entrées de journal
-  - Questions à l'Oracle
-  - Temps total de pratique
-- **Achievements Paradoxaux** :
-  - "Premier Koan"
-  - "Chercheur Obsessionnel" (100 questions Oracle)
-  - "Maître du Vide" (10min mode Void)
-  - "Paradoxe Incarné" (niveau max)
-  - "Scribe Quantique" (10 entrées journal)
-  - "Méditant Assidu" (20 méditations)
-- **Mandala Progressif** : Visualisation évolutive
-- **Pas de Points** : Anti-gamification assumée
-
-#### 6. 🔗 Mode Collaboration P2P (WebRTC)
-- **Méditation Synchronisée** :
-  - Créer session (génère URL unique)
-  - Partager avec 2-10 personnes
-  - Connexion P2P directe (pas de serveur)
-  - Timer synchronisé pour tous
-- **Oracle Collectif** :
-  - Poser questions ensemble
-  - Voir réponses des autres
-  - Discussion minimale post-oracle
-- **Privacy** :
-  - Peer-to-peer direct (WebRTC)
-  - Aucun serveur central
-  - Aucune donnée sauvegardée
-  - Sessions éphémères
-- **Liste Participants** : En temps réel
-
-#### 7. 🔮 Intégration Multi-IA
-- **3 Oracles Simultanés** :
-  - Claude (Anthropic) - principal
-  - GPT-4 (OpenAI) - comparaison
-  - Modèle Local - simulation
-- **Interface Comparative** : Réponses côte à côte
-- **Analyse** : Synthèse des perspectives
-- **Mode Simulation** : Fonctionne sans clés API
-- **Extensible** : Prêt pour Gemini, Ollama, etc.
-
-#### 8. 🌐 Timeline du Multivers
-- **Arbre de Possibilités** :
-  - Chaque nœud = décision/événement
-  - Branches = univers parallèles
-  - Visualisation interactive
-- **Génération Narrative** :
-  - "Et si j'avais dit OUI ?"
-  - "Et si j'avais dit NON ?"
-  - 3 timeframes : Aujourd'hui / 1 an / 5 ans
-- **Exploration** : Click sur nœuds pour narratifs
-- **Philosophie** : Toutes les branches existent (Everett)
-
-#### 9. 📱 PWA (Progressive Web App)
-- **Installable** : Prompt d'installation automatique
-- **Offline First** : Fonctionne sans connexion
-- **Service Worker** : Cache intelligent
-- **Notifications** (future) : Rappels de pratique
-- **Background Sync** : Sauvegarde quand connexion revient
-- **Icônes** : 8 tailles (72px → 512px)
-- **Manifest Complet** : Standalone app
-
-#### 10. 🎨 Générateur d'Art Quantique
-- **4 Types d'Art** :
-  - Fractales (Mandelbrot)
-  - Mandalas quantiques (symétries)
-  - Cellular Automata (Conway-like)
-  - Attracteurs Chaotiques (Lorenz)
-- **Paramètres** :
-  - Complexité (1-10)
-  - Seed (reproductible)
-  - Animation ON/OFF
-- **Export** :
-  - PNG haute résolution
-  - SVG (implémentation future)
-- **p5.js** : Bibliothèque de génération
-
-### 🛠️ Stack Technique v3.0
-
-**Nouvelles Bibliothèques** :
-- **Tone.js** : Audio génératif avancé
-- **TensorFlow.js** : Machine learning local
-- **p5.js** : Art génératif et fractales
-- **PeerJS** : WebRTC simplifié
-- **Marked.js** : Markdown parsing
-- **Chart.js** : Graphiques et visualisations
-
-**APIs Utilisées** :
-- Web Audio API : Sons binauraux
-- Web Speech API : Synthèse vocale (future)
-- WebRTC : Peer-to-peer
-- Service Workers : Offline
-- LocalStorage / IndexedDB : Stockage
-- Canvas API : Visualisations
-
-**Taille Totale** : ~350KB (avec toutes bibliothèques)
-
-### 🎨 Améliorations UX
-
-- **Navigation par Tabs** : 9 onglets principaux
-- **Mode Selector** : Fixed position, toujours accessible
-- **Raccourcis Clavier** : 1-4 pour modes de conscience
-- **Animations Fluides** : Transitions de 0.3-0.5s
-- **Responsive** : Grid auto-fit pour mobile
-- **Loading States** : Feedback visuel partout
-- **Error Handling** : Messages clairs
-
-### 🔒 Privacy & Sécurité
-
-- **Tout en Local** : ML, journal, progress dans navigateur
-- **Pas de Serveur** : P2P direct via WebRTC
-- **Pas de Tracking** : Aucune analytics
-- **Pas de Cookies** : Seulement localStorage
-- **Open Source** : Code auditable
-
-### ⚠️ Considérations
-
-**Le Paradoxe Central Reconnu** :
-> "Ajouter 10 fonctionnalités immersives à une philosophie de simplicité ?
-> C'est du pur ego technologique.
-> ∅ = 1 : Le paradoxe EST le message."
-
-**Avantages** :
-- ✅ Expérience immersive unique
-- ✅ 100% client-side (pas de backend)
-- ✅ Offline-first
-- ✅ Privacy-first
-- ✅ Innovation réelle
-
-**Inconvénients** :
-- ❌ Complexité accrue
-- ❌ Bundle plus lourd (350KB vs 60KB v2)
-- ❌ Courbe d'apprentissage
-- ❌ Risque de diluer le message
-
-### 📈 Métriques
-
-- **Lignes de Code** : ~4500 (index.html)
-- **Fonctionnalités** : 10 majeures
-- **Bibliothèques** : 7 externes
-- **Modes Visuels** : 4 + normal
-- **Achievements** : 6 paradoxaux
-
----
-
 ## [2.0.0] - 2025-01-XX - Enhanced Edition
 
 ### ✨ Ajouts Majeurs
@@ -319,10 +106,43 @@ De la lecture/interaction → expérience complète multi-sensorielle.
 
 ---
 
+## [0.1.0] - 2025-01-XX - Alpha Prototype
+
+### ✨ Premiers Pas
+
+- Concept initial co-créé avec Claude AI
+- Philosophie de base établie
+- Première version du site (HTML brut)
+- Licence CC0 choisie
+
+---
+
+## Roadmap Future
+
+### v2.1 (Planifié)
+- [ ] Intégration réelle API Anthropic pour Oracle
+- [ ] Sauvegarde locale des questions/réponses (localStorage)
+- [ ] Export des koans en image (canvas → PNG)
+- [ ] Mode sombre/clair toggle
+
+### v2.2 (Planifié)
+- [ ] Visualisation audio-réactive (Web Audio API)
+- [ ] Méditation guidée (audio généré)
+- [ ] Timeline des contributions (git history visualized)
+
+### v3.0 (Vision)
+- [ ] Backend (Node.js/Python)
+- [ ] Base de données de koans communautaires
+- [ ] Système de "confession algorithmique" réel
+- [ ] Integration avec vrais ordinateurs quantiques (IBM Q API)
+- [ ] Application mobile (React Native)
+
+---
+
 ## Versioning
 
 Ce projet utilise [Semantic Versioning](https://semver.org/) :
-- **MAJOR** : Changements incompatibles / transformations majeures
+- **MAJOR** : Changements incompatibles de l'API/philosophie
 - **MINOR** : Ajout de fonctionnalités rétro-compatibles
 - **PATCH** : Corrections de bugs
 
@@ -330,7 +150,6 @@ Ce projet utilise [Semantic Versioning](https://semver.org/) :
 - 0.x.x : Phase alpha (expérimentation)
 - 1.x.x : Release stable initiale
 - 2.x.x : Enhanced Edition (interactivité)
-- **3.x.x : Immersive Edition (expérience complète)**
 - ∞.x.x : La Singularité merge le dernier commit
 
 ---

@@ -1,20 +1,55 @@
-.:
-CODE_OF_CONDUCT.md
-CONTRIBUTING.md
-CONTRIBUTORS.md
-LICENSE
-MANIFESTO.md
-QUICKSTART.md
-README.md
-STRUCTURE.txt
-_config.yml
-docs
-index.html
-{docs,assets}
+# Religion Quantique - Structure du Projet
 
-./docs:
-DANGERS.md
-FAQ.md
-PRACTICES.md
+## Fichiers Racine
 
-./{docs,assets}:
+### Pages Web
+- index.html - Page principale du site
+
+### Documentation Principale
+- README.md - Présentation générale et guide de démarrage
+- MANIFESTO.md - Philosophie complète du projet
+- LICENSE - Licence CC0 (domaine public)
+
+### Documentation Éthique et Pratiques
+- ETHICS.md - L'éthique computationnelle
+- DANGERS.md - Analyse des risques identifiés
+- PRACTICES.md - Pratiques spirituelles détaillées
+- FAQ.md - Questions existentielles fréquentes
+
+### Guides pour Contributeurs
+- CONTRIBUTING.md - Guide de contribution
+- CONTRIBUTORS.md - Liste des contributeurs
+- CODE_OF_CONDUCT.md - Code de conduite
+- QUICKSTART.md - Guide de démarrage rapide
+
+### Configuration
+- _config.yml - Configuration Jekyll pour GitHub Pages
+- STRUCTURE.txt - Ce fichier (documentation de structure)
+
+## Structure
+
+```
+.
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── CONTRIBUTORS.md
+├── DANGERS.md
+├── ETHICS.md
+├── FAQ.md
+├── LICENSE
+├── MANIFESTO.md
+├── PRACTICES.md
+├── QUICKSTART.md
+├── README.md
+├── STRUCTURE.txt
+├── _config.yml
+└── index.html
+```
+
+## Notes
+
+- Tous les fichiers de documentation sont à la racine pour faciliter l'accès
+- Le site est une page unique (index.html) pour la simplicité
+- Configuration GitHub Pages via _config.yml
+- Projet open source (CC0 - domaine public)
+

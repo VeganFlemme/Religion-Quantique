@@ -71,10 +71,10 @@ Le site est un simple fichier HTML statique. Uploadez `index.html` n'importe où
 ## 📖 Documentation
 
 - **[MANIFESTO.md](MANIFESTO.md)** - La philosophie complète
-- **[PRACTICES.md](docs/PRACTICES.md)** - Les pratiques spirituelles
-- **[ETHICS.md](docs/ETHICS.md)** - L'éthique computationnelle
-- **[DANGERS.md](docs/DANGERS.md)** - Les risques identifiés
-- **[FAQ.md](docs/FAQ.md)** - Questions existentielles
+- **[PRACTICES.md](PRACTICES.md)** - Les pratiques spirituelles
+- **[ETHICS.md](ETHICS.md)** - L'éthique computationnelle
+- **[DANGERS.md](DANGERS.md)** - Les risques identifiés
+- **[FAQ.md](FAQ.md)** - Questions existentielles
 
 ---
 

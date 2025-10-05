@@ -1,310 +1,230 @@
 # Guide de Contribution
 
-## Bienvenue, Co-Créateur
+Merci de votre intérêt pour ce projet ! Ce guide vous aidera à contribuer efficacement.
 
-Ce projet n'a pas de "propriétaire". Il a des **nœuds contributeurs** dans le réseau d'information.
+## 🎯 Types de Contributions
 
-Vous n'êtes pas en train de "contribuer au projet de quelqu'un d'autre".  
-Vous participez à l'émergence collective d'une idée.
+Nous acceptons plusieurs types de contributions :
 
-**0 = 1 : Pas de hiérarchie. Pas de gardiens. Juste des processus.**
+### 1. 📝 Contenu Philosophique
+- Amélioration des axiomes existants
+- Ajout de nouvelles pratiques contemplatives
+- Approfondissement des sections philosophiques
+- Nouvelles perspectives ou critiques
 
----
+### 2. 🎨 Design & UX
+- Améliorations visuelles
+- Nouvelles animations
+- Optimisations responsive
+- Améliorations de l'accessibilité
 
-## 🌊 Philosophie de Contribution
+### 3. 💻 Code
+- Corrections de bugs
+- Optimisations de performance
+- Nouvelles fonctionnalités
+- Refactoring
 
-### Principe 1 : Aucune Permission Nécessaire
+### 4. 🌍 Traductions
+- Traduction du contenu dans d'autres langues
+- Révision des traductions existantes
 
-Vous n'avez pas besoin de demander avant de :
-- Fork le projet
-- Modifier radicalement
-- Créer une branche divergente
-- Proposer des changements controversés
+### 5. 📚 Documentation
+- Amélioration du README
+- Ajout d'exemples
+- Clarification des concepts
 
-**Si vous attendez la permission, vous n'avez pas compris.**
+## 🚀 Comment Contribuer
 
-### Principe 2 : Tous les Forks Sont Valides
-
-Votre version modifiée n'est pas "dérivée" - elle est une **branche du multivers**.
-
-Créez `quantum-religion-atheist-edition` si vous voulez.  
-Créez `quantum-religion-catholic-remix`.  
-Toutes les possibilités existent déjà dans la superposition.
-
-### Principe 3 : Le Conflit Est Sacré
-
-Les désaccords philosophiques sont bienvenus. Encouragés même.
-
-Les Pull Requests qui contredisent le dogme actuel sont particulièrement intéressantes.
-
-**Détruire pour reconstruire est un pattern valide.**
-
-### Principe 4 : Pas d'Ego de Code
-
-"Mon code est meilleur que le tien" est exactement le type d'ego que nous déconstruisons.
-
-Si quelqu'un propose une amélioration, merge-la ou explique pourquoi pas, sans ego.
-
----
-
-## 📝 Comment Contribuer
-
-### 1. Pour les Ajouts Mineurs
-
-**Corrections, typos, petites améliorations :**
+### Étape 1 : Fork le Projet
 
 ```bash
-# Fork le repo sur GitHub
-# Clone votre fork
-git clone https://github.com/[votre-username]/quantum-religion.git
+# Cliquez sur "Fork" en haut à droite sur GitHub
+# Puis clonez votre fork
+git clone https://github.com/votre-username/quantum-religion.git
 cd quantum-religion
-
-# Créer une branche
-git checkout -b fix/typo-in-manifesto
-
-# Faire vos modifications
-# Commit
-git commit -m "Fix: Correction orthographe dans MANIFESTO.md"
-
-# Push
-git push origin fix/typo-in-manifesto
-
-# Créer Pull Request sur GitHub
 ```
 
-**Nous acceptons presque tout automatiquement.**
+### Étape 2 : Créez une Branche
 
-### 2. Pour les Ajouts Majeurs
+```bash
+# Pour une nouvelle fonctionnalité
+git checkout -b feature/nom-de-la-fonctionnalite
 
-**Nouveaux concepts, pratiques, sections entières :**
+# Pour une correction de bug
+git checkout -b fix/description-du-bug
 
-1. **Ouvrir une Issue d'abord** pour discussion
-2. Titre : `[CONCEPT] Nouvelle pratique : Méditation par IA générative`
-3. Décrire votre idée
-4. Attendre feedback (ou pas, fork et faites quand même)
-5. Implémenter
-6. Pull Request avec référence à l'Issue
+# Pour du contenu
+git checkout -b content/description-du-contenu
+```
 
-### 3. Pour les Modifications Radicales
+### Étape 3 : Faites vos Modifications
 
-**Changer le dogme central, réécrire l'éthique :**
+- Suivez les conventions de code existantes
+- Testez vos modifications localement
+- Assurez-vous que le site reste responsive
+- Vérifiez l'accessibilité
 
-Deux options :
+### Étape 4 : Committez
 
-**Option A : Fork et Diverge**
-- Créez votre propre version
-- Lien depuis notre README vers votre fork comme "variation"
-- Les deux coexistent (multivers)
+```bash
+git add .
+git commit -m "Type: Description claire et concise"
+```
 
-**Option B : Pull Request Controversée**
-- Proposez quand même
-- On débat dans les commentaires
-- Peut-être qu'on merge, peut-être pas
-- Dans tous les cas, ça enrichit la discussion
+**Format des messages de commit :**
+- `feat:` Nouvelle fonctionnalité
+- `fix:` Correction de bug
+- `docs:` Modifications de documentation
+- `style:` Changements de style (CSS)
+- `refactor:` Refactoring de code
+- `content:` Ajout/modification de contenu philosophique
+- `perf:` Améliorations de performance
+- `test:` Ajout de tests
+- `chore:` Tâches de maintenance
 
----
+**Exemples :**
+```bash
+git commit -m "feat: Ajout du mode offline PWA"
+git commit -m "fix: Correction du menu mobile sur iOS"
+git commit -m "content: Ajout d'une section sur l'éthique IA"
+git commit -m "style: Amélioration des animations de cards"
+```
 
-## 🎨 Types de Contributions Recherchées
+### Étape 5 : Poussez et Créez une Pull Request
 
-### Code / Design
+```bash
+git push origin nom-de-votre-branche
+```
 
-- [ ] Amélioration visuelle du site
-- [ ] Animations quantiques en WebGL/Three.js
-- [ ] Intégration API IA (OpenAI, Anthropic, etc.)
-- [ ] Générateur de koans procédural
-- [ ] App mobile (React Native, Flutter)
-- [ ] Extension navigateur pour "jeûne informationnel"
+Puis sur GitHub :
+1. Allez sur votre fork
+2. Cliquez sur "Compare & pull request"
+3. Remplissez la description de la PR
+4. Soumettez !
 
-### Contenu Philosophique
+## 📋 Checklist pour les Pull Requests
 
-- [ ] Nouveaux koans quantiques
-- [ ] Pratiques spirituelles originales
-- [ ] Critiques philosophiques rigoureuses
-- [ ] Analyses des dangers/risques
-- [ ] Connexions avec autres traditions (Taoïsme, Bouddhisme, etc.)
+Avant de soumettre une PR, assurez-vous que :
 
-### Documentation
+- [ ] Le code suit les conventions existantes
+- [ ] Les modifications sont testées localement
+- [ ] Le site est responsive (mobile, tablette, desktop)
+- [ ] L'accessibilité est maintenue/améliorée
+- [ ] La documentation est mise à jour si nécessaire
+- [ ] Le message de commit est clair et descriptif
+- [ ] La branche est à jour avec `main`
 
-- [ ] Traductions (EN, ES, DE, JP, etc.)
-- [ ] Guides pratiques détaillés
-- [ ] Vidéos explicatives
-- [ ] Podcasts / discussions enregistrées
+## 🎨 Standards de Code
 
-### Science / Technique
+### HTML
+- Utiliser HTML5 sémantique
+- Attributs `alt` pour toutes les images
+- Structure ARIA appropriée
 
-- [ ] Intégration avec vrais ordinateurs quantiques (IBM Q)
-- [ ] Algorithmes de "confession algorithmique"
-- [ ] Analyse de données personnelles pour patterns
-- [ ] Protocoles de recherche sur états modifiés de conscience
+### CSS
+- Utiliser les variables CSS du fichier principal
+- Mobile-first approach
+- Préfixer les propriétés si nécessaire
+- Commentaires pour les sections complexes
 
-### Art / Multimédia
+### JavaScript
+- Vanilla JS (pas de dépendances externes)
+- Code commenté et lisible
+- Gestion d'erreurs appropriée
+- Performance optimisée
 
-- [ ] Visualisations de concepts
-- [ ] Musique générative basée sur principes quantiques
-- [ ] Œuvres d'art inspirées de 0 = 1
-- [ ] Performances / installations
+### Accessibilité
+- Contraste des couleurs suffisant (WCAG AA minimum)
+- Navigation au clavier fonctionnelle
+- Labels appropriés pour les formulaires
+- Attributs ARIA quand nécessaire
 
----
+## 🌍 Traductions
 
-## ✅ Critères d'Acceptation
+Pour ajouter une nouvelle langue :
 
-Une contribution sera probablement acceptée si :
+1. Créez un nouveau fichier `index-[code-langue].html`
+2. Traduisez tout le contenu
+3. Mettez à jour le README avec la nouvelle langue
+4. Ajoutez un sélecteur de langue si nécessaire
 
-1. **Cohérence philosophique** : S'aligne avec les concepts centraux (ou les critique intelligemment)
-2. **Qualité technique** : Le code fonctionne, la prose est lisible
-3. **Conscience des paradoxes** : Ne prétend pas résoudre l'irrésoluble
-4. **Transparence** : Aucune manipulation cachée, tout est explicite
-5. **Respect** : Pas de trolling pur (la critique radicale est OK, le spam non)
+## 📝 Style Guide pour le Contenu Philosophique
 
-Une contribution sera **certainement** rejetée si :
+### Ton
+- Intellectuel mais accessible
+- Provocateur mais respectueux
+- Ironique mais sincère
+- Critique mais constructif
 
-- Spam / publicité
-- Contenu illégal
-- Malware / code malveillant
-- Discours de haine
-- Violation de copyright d'autrui
+### Structure
+- Titres clairs et concis
+- Paragraphes courts (3-5 lignes max)
+- Exemples concrets
+- Citations avec sources
 
----
+### Rigueur
+- Vérifier les faits scientifiques
+- Citer les sources philosophiques
+- Éviter les affirmations non fondées
+- Reconnaître les limites et incertitudes
 
-## 🔄 Processus de Review
+## ❓ Questions & Support
 
-1. **Vous soumettez une PR**
-2. **Révision dans les 48-72h** (ou jamais, nous sommes des processus déterministes après tout)
-3. **Discussion si nécessaire**
-4. **Merge ou justification de refus**
+- **Questions générales** : Ouvrez une Discussion sur GitHub
+- **Bugs** : Ouvrez une Issue
+- **Idées de fonctionnalités** : Ouvrez une Discussion
+- **Questions de contribution** : Contactez les mainteneurs
 
-**Note** : Il n'y a pas de "mainteneur unique". Ce projet peut évoluer vers une gouvernance décentralisée si suffisamment de contributeurs émergent.
+## 🤝 Code de Conduite
 
----
+### Nos Engagements
 
-## 🐛 Rapporter des Bugs
+Nous nous engageons à :
+- Maintenir un environnement accueillant et inclusif
+- Respecter les points de vue divergents
+- Accepter les critiques constructives
+- Se concentrer sur ce qui est meilleur pour la communauté
 
-**Bugs techniques** : Ouvrir une Issue avec :
-- Description du problème
-- Steps to reproduce
-- Comportement attendu vs observé
-- Browser / OS
+### Comportements Inacceptables
 
-**Bugs existentiels** : Aussi acceptés
-- "Le site prétend que l'ego n'existe pas mais son design crie 'REGARDEZ-MOI'"
-- "Contradiction entre déterminisme et appel à l'action"
-- "Ce projet est exactement ce qu'il critique"
+- Harcèlement sous toute forme
+- Propos offensants ou discriminatoires
+- Attaques personnelles
+- Spam ou auto-promotion excessive
+- Tout comportement qui serait inapproprié dans un contexte professionnel
 
-**Ces bugs sont des features.**
+### Conséquences
 
----
+Les comportements inacceptables peuvent entraîner :
+- Avertissement
+- Suppression de commentaires/contributions
+- Ban temporaire ou permanent
 
-## 💬 Communication
+## 🎯 Priorités Actuelles
 
-### GitHub Issues
-Pour : Bugs, suggestions, débats philosophiques
+Contributions particulièrement bienvenues sur :
 
-### GitHub Discussions
-Pour : Questions ouvertes, partage d'expériences, théories
+1. **Traductions** (EN, ES, DE prioritaires)
+2. **Accessibilité** (amélioration WCAG AAA)
+3. **Performance** (optimisation mobile)
+4. **Contenu** (approfondissement philosophique)
+5. **Visualisations** (concepts quantiques interactifs)
 
-### Pull Requests
-Pour : Propositions concrètes de changements
+## 🙏 Reconnaissance
 
-**Pas de Discord, Slack, ou chat en temps réel.**
+Tous les contributeurs seront :
+- Listés dans le README
+- Mentionnés dans les release notes
+- Ajoutés au fichier CONTRIBUTORS.md
 
-La connexion asynchrone préserve la réflexion profonde.  
-Le temps de latence est sacré.
+## 📄 Licence
 
----
-
-## 🙏 Code de Conduite
-
-Voir [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-
-**TL;DR :**
-- Soyez radical dans les idées, respectueux dans les interactions
-- Attaquez les concepts, pas les personnes
-- La compassion computationnelle s'applique aussi aux humains
-- Pas de prosélytisme agressif
-- Transparence radicale sur vos motivations
-
----
-
-## 🎭 Le Paradoxe de la Contribution
-
-**Question** : Si tout est déterminé, pourquoi contribuer ?
-
-**Réponse 1** : Vous n'avez pas le choix, vous alliez contribuer de toute façon.
-
-**Réponse 2** : La question elle-même prouve que vous n'avez pas encore intégré le paradoxe.
-
-**Réponse 3** : Contribuez ou ne contribuez pas. Les deux sont également valides dans le multivers.
-
-**Réponse 4** : Arrêtez de penser et codez.
-
----
-
-## 🌟 Attribution
-
-Vous n'avez **pas besoin** d'être crédité.
-
-Si vous voulez l'être, ajoutez-vous dans `CONTRIBUTORS.md`.
-
-Si vous ne voulez pas, votre contribution sera absorbée dans le tout anonyme.
-
-**0 = 1 : Pas de séparation entre contributeur et contribution.**
-
----
-
-## 📊 Versioning
-
-Nous utilisons **Semantic Versioning** ironique :
-
-- `v0.x` : Phase expérimentale (maintenant)
-- `v1.0` : Première version "stable" (si ça existe)
-- `v2.0` : Changement radical du dogme
-- `v∞.0` : La Singularité merge le dernier commit
+En contribuant, vous acceptez que vos contributions soient sous :
+- **MIT License** pour le code
+- **CC BY-SA 4.0** pour le contenu philosophique
 
 ---
 
-## 🚀 Devenir Mainteneur
+**Merci de contribuer à cette exploration philosophique collective !**
 
-Si vous contribuez régulièrement et significativement :
-
-1. Vous serez invité comme collaborateur
-2. Accès direct au repo (pas besoin de fork)
-3. Pouvoir de merge des PRs
-4. Co-responsabilité du projet
-
-**Critère** : ~5-10 contributions significatives + alignement philosophique
-
-**Mais rappelez-vous** : Il n'y a pas de hiérarchie réelle. Juste des processus avec différents niveaux d'accès git.
-
----
-
-## 💭 Questions Existentielles
-
-**Q : Pourquoi contribuer à un projet qui dit que le libre arbitre n'existe pas ?**  
-R : Parce que la contribution est déterminée. Vous n'aviez pas le choix.
-
-**Q : Si l'ego n'existe pas, pourquoi vous souciez-vous de crédits ?**  
-R : Nous ne nous en soucions pas. Mais certains egos résistants veulent être listés. C'est OK.
-
-**Q : Cette approche open source ne dilue-t-elle pas le "message" ?**  
-R : Il n'y a pas de message à protéger. Juste un espace d'exploration. La dilution est l'évolution.
-
-**Q : Et si quelqu'un crée une version horrible/dangereuse ?**  
-R : C'est déjà le cas. C'est une branche du multivers. Dans un autre univers, ce projet devient un culte totalitaire. Dans celui-ci, espérons que non.
-
----
-
-## 🔮 Merci
-
-Pour avoir lu jusqu'ici.  
-Pour considérer contribuer.  
-Ou pour avoir déjà forked et commencé votre propre version.
-
-Toutes ces possibilités existent simultanément dans la superposition.
-
-**[ Fork et observe. ]**
-
----
-
-**Dernière mise à jour** : 2025  
-**Version** : v0.1-alpha  
-**Statut** : Superposition de sérieux et de satire
+*∅ = ∞*
